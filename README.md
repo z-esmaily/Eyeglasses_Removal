@@ -2,18 +2,19 @@
 
 Official pytorch implementation of paper "Enhancing Eyeglasses Removal in Facial Images: A Novel Approach Using Translation Models for Eyeglasses Mask Completion". (  2024)
 
-## Quick Usage
+## Method and Arguments
 
-Our Eyeglasses Removal method enhances this work: [Portrait Eyeglasses and Shadow Removal by Leveraging 3D Synthetic Data](https://github.com/StoryMY/take-off-eyeglasses)
-They sharied their glass removal pretrained model in [here](https://drive.google.com/file/d/1Ea8Swdajz2J5VOkaXIw_-pVJk9EWYrpx/view?usp=sharing) Download it and put it in the "take-off-eyeglasses/ckpt" directory.
+Our Eyeglasses Removal method enhances this work: [Portrait Eyeglasses and Shadow Removal by Leveraging 3D Synthetic Data](https://github.com/StoryMY/take-off-eyeglasses). They sharied their glass removal pretrained model in [here](https://drive.google.com/file/d/1Ea8Swdajz2J5VOkaXIw_-pVJk9EWYrpx/view?usp=sharing). Download it and put it in the "take-off-eyeglasses/ckpt" directory.
 
 We add "Mask Completion" and "Post-Process" steps to it that improved quantitative metrics (FID, KID) and qualitative evaluations. 
-Download Mask Compleetion model from [here](https://drive.google.com/file/d/1U-hanxKcG-chfUzxQV3G_Q7IBbNlHga3/view?usp=sharing),   and put it in the:  "./PIX2PIX/log" directory. 
+Download Mask Completion model from [here](https://drive.google.com/file/d/1U-hanxKcG-chfUzxQV3G_Q7IBbNlHga3/view?usp=sharing),   and put it in the:  "./PIX2PIX/log" directory. 
 
-Our default input and result directories are:    ./TestDataAndResults/with_glasses     and    ./TestDataAndResults/removed_by_prop respectivly. 
+Our default input and result directories are:    ./TestDataAndResults/with_glasses     and    ./TestDataAndResults/removed_by_prop   respectivly. 
 But you can change them by "--input_dir"   and   "--save_dir"   arguments as you want.
 
-For simple usage put your input data in  "TestDataAndResults/with_glasses"  folder. Then run the following script:
+## Quick Usage
+
+For simple usage put your input data in  "TestDataAndResults/with_glasses"  folder. Then run the following:
 
 	simple_take-off-eyeglasses.ipynb
 
@@ -26,11 +27,13 @@ You can change different arguments in simple_take-off-eyeglasses.ipynb code by:
 
  Download the pretrained Pix2Pix model from [here](https://drive.google.com/file/d/1U-hanxKcG-chfUzxQV3G_Q7IBbNlHga3/view?usp=sharing), and put it in the "./PIX2PIX/log" directory. 
  
- Then run:    TestPix2Pix_MaskCompletion.ipynb
+ Then run:    
+ 	
+	TestPix2Pix_MaskCompletion.ipynb
  
 ## Paired Mask Dataset
 
-Download the paired mask dataset in this [Google Drive](https://drive.google.com/drive/folders/1s3Vp-bpsMvo7DoY8f_yze_YBgMjeIZQI?usp=sharing).
+Download the paired mask dataset from [here](https://drive.google.com/drive/folders/1s3Vp-bpsMvo7DoY8f_yze_YBgMjeIZQI?usp=sharing).
 
 If you want to create your paird mask dataset by tophat mrphological operation. Use this:   create_pair_samples_masks.ipynb
 
