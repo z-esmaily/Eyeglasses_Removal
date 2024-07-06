@@ -6,7 +6,8 @@ Official PyTorch implementation of the paper "Enhancing Eyeglasses Removal in Fa
 
 ## Method and Arguments
 
-Our Eyeglasses Removal method enhances this work: [Portrait Eyeglasses and Shadow Removal by Leveraging 3D Synthetic Data](https://github.com/StoryMY/take-off-eyeglasses), which removes eyeglasses using their trained model. Download this pre-trained model [here](https://drive.google.com/file/d/1Ea8Swdajz2J5VOkaXIw_-pVJk9EWYrpx/view?usp=sharing) and place it in the "take-off-eyeglasses/ckpt" directory.
+Our Eyeglasses Removal method enhances this work: [Portrait Eyeglasses and Shadow Removal by Leveraging 3D Synthetic Data](https://github.com/StoryMY/take-off-eyeglasses), which removes eyeglasses using their trained model. 
+Download this pre-trained model [here](https://drive.google.com/file/d/1Ea8Swdajz2J5VOkaXIw_-pVJk9EWYrpx/view?usp=sharing) and place it in the "take-off-eyeglasses/ckpt" directory.
 
 We add "Mask Completion" and "Post-Process" steps that significantly improve quantitative metrics (FID, KID) and qualitative evaluations.
 
@@ -15,6 +16,7 @@ Download the Mask Completion model from [here](https://drive.google.com/file/d/1
 Our default input and result directories are:
 
 "TestDataAndResults/with_glasses"  and  "TestDataAndResults/removed_by_prop"
+
 These can be changed using the input_dir and save_dir arguments.
 
 ## Quick Usage
