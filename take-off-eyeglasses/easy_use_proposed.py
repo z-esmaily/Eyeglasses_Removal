@@ -113,11 +113,11 @@ if __name__ == '__main__':
     device = "cpu"
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("--input_dir", type=str, default="../TestDataAndResults/CelebA/with_glasses", help="input dir")
+    parser.add_argument("--input_dir", type=str, default="../TestDataAndResults/with_glasses", help="input dir")
     parser.add_argument("--completion_model_dir", type=str, default="../PIX2PIX/log/pix2pix_epoch17.pth", help="mask completion model dir")
     parser.add_argument("--completion", type=bool, default=True, help="if ture do completion")
     parser.add_argument("--post_process", type=bool, default=True, help="if ture do post process")
-    parser.add_argument("--save_dir", type=str, default="../TestDataAndResults/CelebA/removed_by_prop", help="result dir")
+    parser.add_argument("--save_dir", type=str, default="../TestDataAndResults/removed_by_prop", help="result dir")
     
     parser.add_argument("--img_size", type=int, default=256, help="image sizes for the model")
     parser.add_argument("--ckpt_path", type=str, default="./ckpt/pretrained.pt", help="checkpoint of the model")
