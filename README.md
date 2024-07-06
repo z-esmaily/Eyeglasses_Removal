@@ -11,9 +11,9 @@ We add "Mask Completion" and "Post-Process" steps to it that improved quantitati
 Download Mask Completion model from [here](https://drive.google.com/file/d/1U-hanxKcG-chfUzxQV3G_Q7IBbNlHga3/view?usp=sharing), and put it in the:  "./PIX2PIX/log" directory. 
 
 Our default input and result directories are:    
-./TestDataAndResults/with_glasses  and ./TestDataAndResults/removed_by_prop   respectivly.
+"TestDataAndResults/with_glasses"  and "TestDataAndResults/removed_by_prop"   respectivly.
 
-But you can change them by "--input_dir"   and   "--save_dir"   arguments as you want.
+But you can change them by "input_dir"   and   "save_dir"   arguments as you want.
 
 ## Quick Usage
 
@@ -21,7 +21,7 @@ For simple usage put your input data in  "TestDataAndResults/with_glasses"  fold
 
 	simple_take-off-eyeglasses.ipynb
 
-By default, Mask completion and Post-Process steps are active. If you want deactive them, you can set to False "--completion" and "--post_process" arguments relevantly in simple_take-off-eyeglasses.ipynb code.
+By default, Mask completion and Post-Process steps are active. If you want deactive them, you can set to False "completion" and "post_process" arguments relevantly in simple_take-off-eyeglasses.ipynb code.
 
 You can change different arguments in simple_take-off-eyeglasses.ipynb by:
 
