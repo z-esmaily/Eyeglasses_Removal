@@ -3,4 +3,4 @@ By default removed_by_prop folder will create for eyeglasses removal results (co
 
 
 (Optional) Create noglasses folder (put without glasses images here. You need this, if you want to compare FID/KID between removal images and original no glasses images)
-Compute_FID_KID.ipynb computes FID/KID bettween two image folders. (If you use it automatically "JustImg/removed_by_prop" folder will be created that only contains final eyeglasses removal images (not their masks)
+Compute_FID_KID.ipynb computes FID/KID bettween two image folders. (If you use it, automatically "JustImg/removed_by_prop" folder will be created that only contains final eyeglasses removal images (not their masks)
