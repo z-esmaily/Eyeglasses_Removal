@@ -10,7 +10,8 @@ We add "Mask Completion" and "Post-Process" steps to it that improved quantitati
 
 Download Mask Completion model from [here](https://drive.google.com/file/d/1U-hanxKcG-chfUzxQV3G_Q7IBbNlHga3/view?usp=sharing), and put it in the:  "./PIX2PIX/log" directory. 
 
-Our default input and result directories are:    ./TestDataAndResults/with_glasses     and    ./TestDataAndResults/removed_by_prop   respectivly.
+Our default input and result directories are:    
+./TestDataAndResults/with_glasses  and ./TestDataAndResults/removed_by_prop   respectivly.
 
 But you can change them by "--input_dir"   and   "--save_dir"   arguments as you want.
 
