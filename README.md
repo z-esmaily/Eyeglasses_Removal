@@ -11,7 +11,7 @@ Download this pre-trained model [here](https://drive.google.com/file/d/1Ea8Swdaj
 
 We add "Mask Completion" and "Post-Process" steps that significantly improve quantitative metrics (FID, KID) and qualitative evaluations.
 
-Download the Mask Completion model from [here](https://drive.google.com/file/d/1U-hanxKcG-chfUzxQV3G_Q7IBbNlHga3/view?usp=sharing), and place it in the "./PIX2PIX/log" directory.
+Download the Mask Completion model from [here](https://drive.google.com/file/d/1U-hanxKcG-chfUzxQV3G_Q7IBbNlHga3/view?usp=sharing), and place it in the "PIX2PIX/log" directory.
 
 Our default input and result directories are:
 
@@ -22,7 +22,8 @@ These can be changed using the input_dir and save_dir arguments.
 ## Quick Usage
 
 Place your input data in the "TestDataAndResults/with_glasses" folder.
-Run:	
+Run:
+
 	simple_take-off-eyeglasses.ipynb.
 
 Note: By default, Mask completion and Post-Process steps are active. To de-activate them, set completion and post_process arguments to False in the simple_take-off-eyeglasses.ipynb code.
