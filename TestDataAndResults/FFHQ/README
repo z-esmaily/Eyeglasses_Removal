@@ -1,0 +1,4 @@
+create with_glasses folder here for images with glasses
+create noglasses folder here for images without glasses
+create removed_by_prop folder here for eyeglasses removal results (contains final eyeglasses removal images and generated eyeglasses masks and generated eyeglasses shadow masks)
+create JustImg folder (optional; you should copy only final eyeglasses removal images here (not their masks) if you want to use create_fid library for fid or kid calculation)
