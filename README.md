@@ -15,14 +15,12 @@ But you can change them by "--input_dir"   and   "--save_dir"   arguments as you
 
 For simple usage put your input data in  "TestDataAndResults/with_glasses"  folder. Then run the following script:
 
-simple_take-off-eyeglasses.ipynb
+	simple_take-off-eyeglasses.ipynb
 
+By default, Mask completion and Post-Process steps are active. If you want deactive them, you can set to False "--completion" and "--post_process" arguments relevantly in simple_take-off-eyeglasses.ipynb code
+You can change different arguments in simple_take-off-eyeglasses.ipynb code by:
 
-By default, Mask completion and Post-Process steps are active. If you want deactive them, you can set to False "--completion" , "--post_process" arguments relevantly in simple_take-off-eyeglasses.ipynb code
-You can change different arguments in simple_take-off-eyeglasses.ipynb code by:    
-
-!python3 easy_use_proposed.py --input_dir (your input path) --save_dir (your result path) --completion (by default is True) --post_process (by default is True)
-
+	!python3 easy_use_proposed.py --input_dir (your input path) --save_dir (your result path) --completion (by default is True) --post_process (by default is True)
 
 ## Test Only Mask completion (without eyeglasses removal)
 
