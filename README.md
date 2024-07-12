@@ -21,7 +21,7 @@ Our default input and result directories are:
 These can be changed using the `--input_dir` and `--save_dir` arguments.
 
 Below is some examples for mask completion and post-processing:
-![Eyeglasses Removal Using Mask Completion_for github](https://github.com/user-attachments/assets/79826e6e-a5d6-47d1-a255-9ff2757d9e16)
+![Eyeglasses Removal Using Mask Completion_for github](https://github.com/user-attachments/assets/1282efd9-607f-4e6a-ba7a-06ac3c9c0183)
 ![Post-processing of eyeglasses mask images_for github](https://github.com/user-attachments/assets/a738923c-7ff6-462b-aa94-42aebf86f7a3)
 
 ## Quick Usage
