@@ -1,24 +1,3 @@
-## Method and Arguments
-Our Eyeglasses Removal method enhances this work: *Portrait Eyeglasses and Shadow Removal by Leveraging 3D Synthetic Data*, which removes eyeglasses using their trained model. Download this pre-trained model [here](#) and place it in the `"take-off-eyeglasses/ckpt"` directory.
-
-We add "Mask Completion" and "Post-Process" steps that significantly improve quantitative metrics (FID, KID) and qualitative evaluations.
-
-Download the Mask Completion model from [here](#), and place it in the `"PIX2PIX/log"` directory.
-
-Our default input and result directories are:
-
-- `"TestDataAndResults/with_glasses"` (input)
-- `"TestDataAndResults/removed_by_prop"` (results)
-
-These can be changed using the `input_dir` and `save_dir` arguments.
-
-## Quick Usage
-Place your input data in the `"TestDataAndResults/with_glasses"` folder. Run:
-
-
-simple_take-off-eyeglasses.ipynb
-
-
 # Enhancing Eyeglasses Removal in Facial Images Using Eyeglasses Mask Completion
 
 **Abstract:**  
@@ -70,13 +49,13 @@ To create your own paired mask dataset using Top-Hat morphological operation, ru
 ## Citation
 
 If our paper helps your research, please cite it in your publications:
-```bibtex
-@article{esmaeily2024enhancing_eyeglasses_removal,
-  title={Enhancing Eyeglasses Removal in Facial Images: A Novel Approach Using Translation Models for Eyeglasses Mask Completion},
-  author={Zahra Esmaeily and Hossein Ebrahimpour-Komleh},
-  journal={Multimedia Tools and Applications},
-  year={2024},
-  note={under review}
-}
+
+	@article{esmaeily2024enhancing_eyeglasses_removal,
+	  title={Enhancing Eyeglasses Removal in Facial Images: A Novel Approach Using Translation Models for Eyeglasses Mask Completion},
+	  author={Zahra Esmaeily and Hossein Ebrahimpour-Komleh},
+	  journal={Multimedia Tools and Applications},
+	  year={2024},
+	  note={under review}
+	}
 
 
