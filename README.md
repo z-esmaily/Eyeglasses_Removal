@@ -12,8 +12,6 @@ Download this pre-trained model [here](https://drive.google.com/file/d/1Ea8Swdaj
 We add "Mask Completion" and "Post-Process" steps that significantly improve quantitative metrics (FID, KID) and qualitative evaluations.
 
 Download the Mask Completion model from [here](https://drive.google.com/file/d/1U-hanxKcG-chfUzxQV3G_Q7IBbNlHga3/view?usp=sharing), and place it in the `"PIX2PIX/log"` directory.
-![Eyeglasses Removal Using Mask Completion_for github](https://github.com/user-attachments/assets/79826e6e-a5d6-47d1-a255-9ff2757d9e16)
-![Post-processing of eyeglasses mask images_for github](https://github.com/user-attachments/assets/a738923c-7ff6-462b-aa94-42aebf86f7a3)
 
 Our default input and result directories are:
 
@@ -21,6 +19,8 @@ Our default input and result directories are:
 - `"TestDataAndResults/removed_by_prop"` (results)
 
 These can be changed using the `--input_dir` and `--save_dir` arguments.
+![Eyeglasses Removal Using Mask Completion_for github](https://github.com/user-attachments/assets/79826e6e-a5d6-47d1-a255-9ff2757d9e16)
+![Post-processing of eyeglasses mask images_for github](https://github.com/user-attachments/assets/a738923c-7ff6-462b-aa94-42aebf86f7a3)
 
 ## Quick Usage
 Place your input data in the `"TestDataAndResults/with_glasses"` folder. Run:
