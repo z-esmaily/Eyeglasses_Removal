@@ -41,7 +41,7 @@ Then run:
 	TestPix2Pix_MaskCompletion.ipynb
  
 ## Paired Mask Dataset
-![Examples of eyeglasses masks](https://github.com/user-attachments/assets/a5c3d47c-9a28-44f7-9256-cf3bb94ced6e)
+![Examples of eyeglasses masks](https://github.com/user-attachments/assets/c2834dbd-9a7b-40a8-a1a0-6e7e5eef4cd9)
 
 Download the paired mask dataset from [here](https://drive.google.com/drive/folders/1s3Vp-bpsMvo7DoY8f_yze_YBgMjeIZQI?usp=sharing).
 
