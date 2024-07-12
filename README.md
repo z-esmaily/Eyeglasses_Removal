@@ -4,7 +4,6 @@
 This work presents an enhanced approach for eyeglasses removal in facial images. It builds upon existing methods by incorporating eyeglasses mask completion and post-processing steps, leading to improved quality and quantitative metrics.
 
 **Official PyTorch implementation of the paper "Enhancing Eyeglasses Removal in Facial Images: A Novel Approach Using Translation Models for Eyeglasses Mask Completion" (Multimedia Tools and Applications, under review, 2024).**
-![Eyeglasses Removal Using Mask Completion](https://github.com/user-attachments/assets/5f7d6bdc-1977-4cf9-947b-ed4e51c869ec)
 
 ## Method and Arguments
 Our Eyeglasses Removal method enhances this work: [*Portrait Eyeglasses and Shadow Removal by Leveraging 3D Synthetic Data*](https://github.com/StoryMY/take-off-eyeglasses), which removes eyeglasses using their trained model. 
@@ -13,6 +12,8 @@ Download this pre-trained model [here](https://drive.google.com/file/d/1Ea8Swdaj
 We add "Mask Completion" and "Post-Process" steps that significantly improve quantitative metrics (FID, KID) and qualitative evaluations.
 
 Download the Mask Completion model from [here](https://drive.google.com/file/d/1U-hanxKcG-chfUzxQV3G_Q7IBbNlHga3/view?usp=sharing), and place it in the `"PIX2PIX/log"` directory.
+![Eyeglasses Removal Using Mask Completion](https://github.com/user-attachments/assets/5f7d6bdc-1977-4cf9-947b-ed4e51c869ec)
+![Post-processing of eyeglasses mask images](https://github.com/user-attachments/assets/52228aad-331f-4b53-a932-a54933da04b9)
 
 Our default input and result directories are:
 
@@ -40,6 +41,7 @@ Then run:
 	TestPix2Pix_MaskCompletion.ipynb
  
 ## Paired Mask Dataset
+![Examples of eyeglasses masks](https://github.com/user-attachments/assets/a5c3d47c-9a28-44f7-9256-cf3bb94ced6e)
 
 Download the paired mask dataset from [here](https://drive.google.com/drive/folders/1s3Vp-bpsMvo7DoY8f_yze_YBgMjeIZQI?usp=sharing).
 
