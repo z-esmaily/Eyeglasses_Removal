@@ -1,6 +1,5 @@
 # Enhancing Eyeglasses Removal in Facial Images Using Eyeglasses Mask Completion
 
-**Abstract:**  
 This work presents an enhanced approach for eyeglasses removal in facial images. It builds upon existing methods by incorporating eyeglasses mask completion and post-processing steps, leading to improved quality and quantitative metrics.
 
 **Official PyTorch implementation of the paper "Enhancing Eyeglasses Removal in Facial Images: A Novel Approach Using Translation Models for Eyeglasses Mask Completion" (Multimedia Tools and Applications, under review, 2024).**
@@ -18,7 +17,7 @@ Below is some examples for mask completion and post-processing:
 ### 1. Prerequisites:
 
 Download the pre-trained model from the original source [google drive link](https://drive.google.com/file/d/1Ea8Swdajz2J5VOkaXIw_-pVJk9EWYrpx/view?usp=sharing) and place it in the `"take-off-eyeglasses/ckpt"` directory.
-Download the pre-trained Pix2Pix model we provide for mask completion [here](https://drive.google.com/file/d/1U-hanxKcG-chfUzxQV3G_Q7IBbNlHga3/view?usp=sharing) and place it in the '"PIX2PIX/log"' directory.
+Download the pre-trained Pix2Pix model we provide for mask completion [here](https://drive.google.com/file/d/1U-hanxKcG-chfUzxQV3G_Q7IBbNlHga3/view?usp=sharing) and place it in the `"PIX2PIX/log"` directory.
 
 ### 2. Running the Code:
 
