@@ -33,6 +33,7 @@ Building upon the initial eyeglasses removal achieved by the pre-trained model f
 By default, both mask completion and post-processing are active. You can adjust these functionalities using the following arguments:
 
 --completion: Set to False to disable mask completion.
+
 --post_process: Set to False to disable post-processing.
 
 In other words, you can change arguments in the notebook using:
