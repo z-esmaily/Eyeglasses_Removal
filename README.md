@@ -25,7 +25,8 @@ Below is some examples for mask completion and post-processing:
 ![Post-processing of eyeglasses mask images_for github](https://github.com/user-attachments/assets/a738923c-7ff6-462b-aa94-42aebf86f7a3)
 
 ## Quick Usage
-Place your input data in the `"TestDataAndResults/with_glasses"` folder. Run:
+Place your input data in the `"TestDataAndResults/with_glasses"` folder. Run following notebook in '"take-off-eyeglasses" folder 
+(take off eyeglasses codes in this folder based on [this](https://github.com/StoryMY/take-off-eyeglasses) repo.):
 
 	simple_take-off-eyeglasses.ipynb.
 
