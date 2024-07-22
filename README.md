@@ -26,11 +26,7 @@ Place your input images with eyeglasses in the "TestDataAndResults/with_glasses"
 
 	simple_take-off-eyeglasses.ipynb.
 
-This notebook utilizes the pre-trained model from the original source to remove eyeglasses initially. Our contributions come into play next:
-
-Mask Completion: We perform mask completion using the Pix2Pix model we provide, refining the initial mask prediction results.
-
-Post-Processing: We apply additional post-processing steps to further enhance the final image quality.
+Building upon the initial eyeglasses removal achieved by the pre-trained model from the original source, this notebook incorporates our mask completion and post-processing steps for enhanced results.
 
 ### 3. Optional Arguments (in simple_take-off-eyeglasses.ipynb):
 
