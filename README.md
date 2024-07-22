@@ -17,12 +17,12 @@ Below is some examples for mask completion and post-processing:
 ## Quick Usage
 ### 1. Prerequisites:
 
-Download the pre-trained model from the original source [google drive link](https://drive.google.com/file/d/1Ea8Swdajz2J5VOkaXIw_-pVJk9EWYrpx/view?usp=sharing) and place it in the "take-off-eyeglasses/ckpt" directory.
+Download the pre-trained model from the original source [google drive link](https://drive.google.com/file/d/1Ea8Swdajz2J5VOkaXIw_-pVJk9EWYrpx/view?usp=sharing) and place it in the `"take-off-eyeglasses/ckpt"` directory.
 Download the pre-trained Pix2Pix model we provide for mask completion [here](https://drive.google.com/file/d/1U-hanxKcG-chfUzxQV3G_Q7IBbNlHga3/view?usp=sharing) and place it in the "PIX2PIX/log" directory.
 
 ### 2. Running the Code:
 
-Place your input images with eyeglasses in the "TestDataAndResults/with_glasses" folder. Navigate to the "take-off-eyeglasses" folder and run the following notebook:
+Place your input images with eyeglasses in the `"TestDataAndResults/with_glasses"` folder. Navigate to the `"take-off-eyeglasses"` folder and run the following notebook:
 
 	simple_take-off-eyeglasses.ipynb.
 
