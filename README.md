@@ -1,6 +1,6 @@
 # Enhancing Eyeglasses Removal in Facial Images Using Eyeglasses Mask Completion
 
-This work presents an enhanced approach for eyeglasses removal in facial images. It builds upon existing methods by incorporating novel mask completion and post-processing steps, leading to improved quality and quantitative metrics.
+This work presents an enhanced approach for eyeglasses removal in facial images. It builds upon existing methods by incorporating novel **mask completion and post-processing steps**, leading to improved quality and quantitative metrics.
 
 **Official PyTorch implementation of the paper "Enhancing Eyeglasses Removal in Facial Images: A Novel Approach Using Translation Models for Eyeglasses Mask Completion" (Multimedia Tools and Applications, under review, 2024).**
 
