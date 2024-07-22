@@ -1,13 +1,11 @@
 # Enhancing Eyeglasses Removal in Facial Images Using Eyeglasses Mask Completion
 
-This work presents an enhanced approach for eyeglasses removal in facial images. It builds upon existing methods by incorporating eyeglasses mask completion and post-processing steps, leading to improved quality and quantitative metrics.
+This work presents an enhanced approach for eyeglasses removal in facial images. It builds upon existing methods by incorporating novel mask completion and post-processing steps, leading to improved quality and quantitative metrics.
 
 **Official PyTorch implementation of the paper "Enhancing Eyeglasses Removal in Facial Images: A Novel Approach Using Translation Models for Eyeglasses Mask Completion" (Multimedia Tools and Applications, under review, 2024).**
 
 ## Method and Arguments
-Our Eyeglasses Removal method enhances this work: [*Portrait Eyeglasses and Shadow Removal by Leveraging 3D Synthetic Data*](https://github.com/StoryMY/take-off-eyeglasses) (original source), which removes eyeglasses using their trained model. 
-
-We add "Mask Completion" and "Post-Process" steps that significantly improve quantitative metrics (FID, KID) and qualitative evaluations.
+Our approach leverages the existing eyeglasses removal method in [*Portrait Eyeglasses and Shadow Removal by Leveraging 3D Synthetic Data*](https://github.com/StoryMY/take-off-eyeglasses)  (baseline method) as a foundation. However, we introduce a novel combination of mask completion and post-processing steps to achieve significantly improved quantitative metrics (FID, KID) and qualitative evaluations.
 
 Below is some examples for mask completion and post-processing:
 ![Eyeglasses Removal Using Mask Completion_for github](https://github.com/user-attachments/assets/829eff83-39fb-4591-9619-06246bf42a7d)
@@ -16,8 +14,8 @@ Below is some examples for mask completion and post-processing:
 ## Quick Usage
 ### 1. Prerequisites:
 
-Download the pre-trained model from the original source [google drive link](https://drive.google.com/file/d/1Ea8Swdajz2J5VOkaXIw_-pVJk9EWYrpx/view?usp=sharing) and place it in the `"take-off-eyeglasses/ckpt"` directory.
-Download the pre-trained Pix2Pix model we provide for mask completion [here](https://drive.google.com/file/d/1U-hanxKcG-chfUzxQV3G_Q7IBbNlHga3/view?usp=sharing) and place it in the `"PIX2PIX/log"` directory.
+Download the pre-trained model from the baseline method [google drive link](https://drive.google.com/file/d/1Ea8Swdajz2J5VOkaXIw_-pVJk9EWYrpx/view?usp=sharing) and place it in the `"take-off-eyeglasses/ckpt"` directory.
+Download the pre-trained Pix2Pix model we provide for mask completion from our [google drive link](https://drive.google.com/file/d/1U-hanxKcG-chfUzxQV3G_Q7IBbNlHga3/view?usp=sharing) and place it in the `"PIX2PIX/log"` directory.
 
 ### 2. Running the Code:
 
@@ -25,7 +23,7 @@ Place your input images with eyeglasses in the `"TestDataAndResults/with_glasses
 
 	simple_take-off-eyeglasses.ipynb.
 
-Building upon the initial eyeglasses removal achieved by the pre-trained model from the original source, this notebook incorporates our mask completion and post-processing steps for enhanced results.
+Building upon the initial eyeglasses removal achieved by the pre-trained model from the baseline method, this notebook incorporates our mask completion and post-processing steps for enhanced results.
 
 ### 3. Optional Arguments (in simple_take-off-eyeglasses.ipynb):
 
