@@ -2,7 +2,7 @@
 
 This work presents an enhanced approach for eyeglasses removal in facial images. It builds upon existing methods by incorporating novel **mask completion and post-processing steps**, leading to improved quality and quantitative metrics.
 
-**Official PyTorch implementation of the paper "Enhancing Eyeglasses Removal in Facial Images: A Novel Approach Using Translation Models for Eyeglasses Mask Completion" (Multimedia Tools and Applications, under review, 2024).**
+**Official PyTorch implementation of the paper "Enhancing Eyeglasses Removal in Facial Images: A Novel Approach Using Translation Models for Eyeglasses Mask Completion" (Multimedia Tools and Applications (2024). (https://doi.org/10.1007/s11042-024-20101-5) ).**
 
 ## Method and Arguments
 Our approach leverages the existing eyeglasses removal method in [*Portrait Eyeglasses and Shadow Removal by Leveraging 3D Synthetic Data*](https://github.com/StoryMY/take-off-eyeglasses)  (baseline method) as a foundation. However, we introduce a novel combination of mask completion and post-processing steps to achieve significantly improved quantitative metrics (FID, KID) and qualitative evaluations.
